@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: 4959fd3c978705944a698f61dfcdf041
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ARM
+    100002: ARM001
+    100004: Box001
+    100006: ChamferBox002
+    100008: ChamferCyl001
+    100010: Circle001
+    100012: Circle002
+    100014: Cylinder001
+    100016: Cylinder003
+    100018: Cylinder004
+    100020: Cylinder006
+    100022: Cylinder007
+    100024: Cylinder008
+    100026: Sphere001
+    100028: //RootNode
+    400000: ARM
+    400002: ARM001
+    400004: Box001
+    400006: ChamferBox002
+    400008: ChamferCyl001
+    400010: Circle001
+    400012: Circle002
+    400014: Cylinder001
+    400016: Cylinder003
+    400018: Cylinder004
+    400020: Cylinder006
+    400022: Cylinder007
+    400024: Cylinder008
+    400026: Sphere001
+    400028: //RootNode
+    2100000: pink plastic
+    2100002: body
+    2100004: No Name
+    2100006: yellow plastic
+    2100008: plastic face
+    2100010: white plastic
+    2300000: Box001
+    2300002: ChamferBox002
+    2300004: ChamferCyl001
+    2300006: Circle001
+    2300008: Circle002
+    2300010: Cylinder001
+    2300012: Cylinder003
+    2300014: Cylinder004
+    2300016: Cylinder006
+    2300018: Cylinder007
+    2300020: Cylinder008
+    2300022: Sphere001
+    3300000: Box001
+    3300002: ChamferBox002
+    3300004: ChamferCyl001
+    3300006: Circle001
+    3300008: Circle002
+    3300010: Cylinder001
+    3300012: Cylinder003
+    3300014: Cylinder004
+    3300016: Cylinder006
+    3300018: Cylinder007
+    3300020: Cylinder008
+    3300022: Sphere001
+    4300000: ChamferBox002
+    4300002: Box001
+    4300004: ChamferCyl001
+    4300006: Cylinder001
+    4300008: Cylinder003
+    4300010: Circle001
+    4300012: Cylinder004
+    4300014: Cylinder006
+    4300016: Sphere001
+    4300018: Cylinder007
+    4300020: Circle002
+    4300022: Cylinder008
+    7400000: Stand
+    7400002: Walk
+    7400004: Jump
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pricess body
+    second: {fileID: 2800000, guid: f4a6e613714ffb241af61bb90467f345, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: princess face
+    second: {fileID: 2800000, guid: d3da5de07f132bb45a6843f227c5b633, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Stand
+      takeName: Take 001
+      firstFrame: -10
+      lastFrame: -3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 7
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 12
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
